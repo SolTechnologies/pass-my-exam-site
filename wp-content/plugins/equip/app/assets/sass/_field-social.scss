@@ -1,0 +1,63 @@
+//
+// Social Links Field
+// --------------------------------------------------
+
+.equip-socials-group {
+  margin-bottom: floor($line-height-computed / 2);
+  @include clearfix;
+  select {
+    display: block;
+    float: left;
+		width: 45%;
+	  line-height: $line-height-base;
+	  height: $input-height !important;
+	  font-size: $input-font-size;
+	  color: $input-font-color;
+	  border: $input-border;
+	  border-radius: $border-radius-base;
+	  box-shadow: none;
+	  padding: 0 20px;
+    @include appearance(none);
+	  @include transition(border-color .25s);
+  }
+  select::-ms-expand { display: none; }
+  input {
+    float: left;
+		width: 45% !important;
+    margin-left: 10px;
+  }
+  .equip-socials-group-remove {
+    display: block;
+    float: left;
+    width: 25px;
+    line-height: 25px;
+    font-size: $font-size-large;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: $brand-danger;
+    border-radius: $border-radius-base;
+    margin: 10px 0 0 10px;
+    &:hover,
+    &:focus { color: #fff;  }
+    &:focus, &:active {
+      outline: none;
+      @include box-shadow(none);
+    }
+  }
+  @media screen and(max-width: 820px) {
+    select, input { width: 42% !important; }
+  }
+  @media #{$mobile-land} {
+    // select, input { float: none; }
+    select {
+      width: 100% !important;
+      float: none;
+      margin-bottom: 10px; 
+    }
+    input {
+      width: 80% !important;
+      margin-left: 0px;
+    }
+  }
+}

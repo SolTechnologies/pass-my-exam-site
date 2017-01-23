@@ -1,0 +1,34 @@
+//
+// Image Select
+// --------------------------------------------------
+
+.equip-image-select {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-bottom: $line-height-computed;
+  @include user-select(none);
+  &:last-child { margin-right: 0; }
+
+  > img {
+    display: block;
+    border: 2px solid $image-select-border-color;
+    border-radius: $border-radius-base;
+    @include transition(border-color .3s);
+  }
+  &.active {
+    > img {
+      border-color: $image-select-active-border-color;
+    }
+  }
+  .is-label {
+    display: block;
+    font-size: $image-select-font-size;
+    color: $image-select-font-color;
+    margin-top: floor($line-height-computed / 2);
+  }
+}
+.equip-image-select-unit {
+  .equip-description { margin-top: -4px; }
+}

@@ -1,0 +1,41 @@
+/* Tiny MCE styles */
+
+.lead {
+  font-size: 20px;
+  font-weight: 600;
+}
+p { font-size: 16px; }
+.text-lg { font-size: 18px !important; }
+.text-sm { font-size: 14px !important; }
+.text-xs { font-size: 12px !important; }
+.text-uppercase { text-transform: uppercase; }
+.text-semibold { font-weight: 600 !important; }
+.text-bold { font-weight: bold !important; }
+.text-normal { font-weight: normal !important; }
+.text-thin { font-weight: 300 !important; }
+
+/* Contextual colors */
+.text-muted { color: #808080; }
+.text-gray { color: #666; }
+.text-light,
+.text-white { color: #fff !important; }
+.text-default { color: #2895f1; }
+.text-primary { color: #1bdb68; }
+.text-success { color: #19c55e; }
+.text-info { color: #62b7ff; }
+.text-warning { color: #d2a052; }
+.text-danger { color: #e97961; }
+
+/* Contextual backgrounds */
+.bg-default,
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-warning,
+.bg-danger { color: #fff; }
+.bg-default { background-color: #2895f1; }
+.bg-primary { background-color: #1bdb68; }
+.bg-success { background-color: #19c55e; }
+.bg-info { background-color: #62b7ff; }
+.bg-warning { background-color: #d2a052; }
+.bg-danger { background-color: #e97961; }

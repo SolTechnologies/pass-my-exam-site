@@ -1,0 +1,76 @@
+//
+// Color Picker
+// --------------------------------------------------
+
+.equip-color-field {
+  position: relative;
+  .equip-color-result {
+    position: absolute;
+    width: $color-input-width;
+    height: $input-height;
+    font-size: $input-font-size;
+    color: $input-font-color;
+    text-align: center;
+    line-height: $input-height - 4;
+    border: $input-border;
+    border-radius: $border-radius-base;
+    top: 0;
+    left: ($input-height + 2) + 10;
+  }
+  .wp-picker-container {
+    position: relative;
+    .wp-picker-input-wrap {
+      position: absolute;
+      z-index: 2;
+      left: ($input-height + 2) + 10;
+      top: 0;
+      .equip-color {
+        width: $color-input-width;
+        height: $input-height;
+        font-size: $input-font-size;
+        color: $input-font-color;
+        text-align: center;
+        border: $input-border;
+        border-radius: $border-radius-base;
+        padding: 0 12px;
+        @include transition(border-color .25s);
+        &:focus {
+          outline: none;
+          border-color: $brand-primary;
+        }
+      }
+    }
+    .wp-color-result {
+      position: relative;
+      z-index: 1;
+      width: $input-height + 2;
+      height: $input-height;
+      border: none;
+      border-radius: $border-radius-base;
+      background-color: $color-result-default-bg;
+      @include box-shadow(none);
+      &:after {
+        position: absolute;
+        content: "\e3b8";
+        width: $input-height;
+        height: $input-height;
+        line-height: $input-height;
+        font-family: 'Material Icons';
+        font-size: $color-picker-icon-size;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+        top: 0;
+        right: -($input-height + 20 + $color-input-width);
+        text-decoration: none;
+        background-color: $brand-primary;
+        border-radius: $border-radius-base;
+        touch-action: manipulation;
+        cursor: pointer;
+        @include user-select(none);
+      }
+    }
+    .button.button-small.wp-picker-clear { display: none; }
+  }
+}

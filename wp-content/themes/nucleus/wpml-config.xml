@@ -1,0 +1,28 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_nucleus_page_settings</custom-field>
+        <custom-field action="translate">_nucleus_plan_properties</custom-field>
+        <custom-field action="copy">_nucleus_plan_settings</custom-field>
+        <custom-field action="copy">_nucleus_slideshow_settings</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">nucleus_portfolio</custom-type>
+        <custom-type translate="1">nucleus_pricing</custom-type>
+        <custom-type translate="1">nucleus_slideshow</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">nucleus_portfolio_category</taxonomy>
+        <taxonomy translate="1">nucleus_pricing_type</taxonomy>
+        <taxonomy translate="1">nucleus_pricing_properties</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="nucleus_options">
+            <key name="footer_action_1_title" />
+            <key name="footer_action_2_title" />
+            <key name="footer_action_3_title" />
+            <key name="footer_subscribe_placeholder" />
+            <key name="404_title" />
+            <key name="404_button_text" />
+        </key>
+    </admin-texts>
+</wpml-config>

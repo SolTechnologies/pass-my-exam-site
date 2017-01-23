@@ -1,0 +1,196 @@
+#nucleus_block_title .vc_element-icon,
+.wpb_nucleus_block_title .vc_element-icon,
+#nucleus_socials .vc_element-icon,
+.wpb_nucleus_socials .vc_element-icon,
+#nucleus_app_store .vc_element-icon,
+.wpb_nucleus_app_store .vc_element-icon,
+#nucleus_google_play .vc_element-icon,
+.wpb_nucleus_google_play .vc_element-icon,
+#nucleus_windows_store .vc_element-icon,
+.wpb_nucleus_windows_store .vc_element-icon,
+#nucleus_amazon .vc_element-icon,
+.wpb_nucleus_amazon .vc_element-icon,
+#nucleus_logo_carousel .vc_element-icon,
+.wpb_nucleus_logo_carousel .vc_element-icon,
+#nucleus_image_carousel .vc_element-icon,
+.wpb_nucleus_image_carousel .vc_element-icon,
+#nucleus_quotation .vc_element-icon,
+.wpb_nucleus_quotation .vc_element-icon,
+#nucleus_portfolio .vc_element-icon,
+.wpb_nucleus_portfolio .vc_element-icon,
+#nucleus_image_box .vc_element-icon,
+.wpb_nucleus_image_box .vc_element-icon,
+#nucleus_testimonial .vc_element-icon,
+.wpb_nucleus_testimonial .vc_element-icon,
+#nucleus_video_popup .vc_element-icon,
+.wpb_nucleus_video_popup .vc_element-icon,
+#nucleus_video_popup_tile .vc_element-icon,
+.wpb_nucleus_video_popup_tile .vc_element-icon,
+#nucleus_animated_digits .vc_element-icon,
+.wpb_nucleus_animated_digits .vc_element-icon,
+#nucleus_team .vc_element-icon,
+.wpb_nucleus_team .vc_element-icon,
+#nucleus_pricing .vc_element-icon,
+.wpb_nucleus_pricing .vc_element-icon,
+#nucleus_pricing_table .vc_element-icon,
+.wpb_nucleus_pricing_table .vc_element-icon,
+#nucleus_download_counter .vc_element-icon,
+.wpb_nucleus_download_counter .vc_element-icon,
+#nucleus_countdown .vc_element-icon,
+.wpb_nucleus_countdown .vc_element-icon,
+#nucleus_progress_bars .vc_element-icon,
+.wpb_nucleus_progress_bars .vc_element-icon,
+#nucleus_gallery .vc_element-icon,
+.wpb_nucleus_gallery .vc_element-icon,
+#nucleus_icon_box .vc_element-icon,
+.wpb_nucleus_icon_box .vc_element-icon,
+#nucleus_subscribe .vc_element-icon,
+.wpb_nucleus_subscribe .vc_element-icon,
+#nucleus_timetable .vc_element-icon,
+.wpb_nucleus_timetable .vc_element-icon,
+#nucleus_split_contacts .vc_element-icon,
+.wpb_nucleus_split_contacts .vc_element-icon,
+#nucleus_gadgets_slideshow .vc_element-icon,
+.wpb_nucleus_gadgets_slideshow .vc_element-icon,
+#nucleus_posts .vc_element-icon,
+.wpb_nucleus_posts .vc_element-icon,
+#nucleus_products .vc_element-icon,
+.wpb_nucleus_products .vc_element-icon {
+	background-image: url(../img/shortcode-icons.png);
+}
+#nucleus_block_title .vc_element-icon,
+.wpb_nucleus_block_title .vc_element-icon {
+  background-position: 0 0;
+}
+#nucleus_socials .vc_element-icon,
+.wpb_nucleus_socials .vc_element-icon {
+  background-position: 0 -32px;
+}
+#nucleus_app_store .vc_element-icon,
+.wpb_nucleus_app_store .vc_element-icon {
+  background-position: 0 -64px;
+}
+#nucleus_google_play .vc_element-icon,
+.wpb_nucleus_google_play .vc_element-icon {
+  background-position: 0 -96px;
+}
+#nucleus_windows_store .vc_element-icon,
+.wpb_nucleus_windows_store .vc_element-icon {
+  background-position: 0 -128px;
+}
+#nucleus_amazon .vc_element-icon,
+.wpb_nucleus_amazon .vc_element-icon {
+  background-position: 0 -160px;
+}
+#nucleus_logo_carousel .vc_element-icon,
+.wpb_nucleus_logo_carousel .vc_element-icon {
+  background-position: 0 -192px;
+}
+#nucleus_image_carousel .vc_element-icon,
+.wpb_nucleus_image_carousel .vc_element-icon {
+  background-position: 0 -224px;
+}
+#nucleus_quotation .vc_element-icon,
+.wpb_nucleus_quotation .vc_element-icon {
+  background-position: 0 -256px;
+}
+#nucleus_portfolio .vc_element-icon,
+.wpb_nucleus_portfolio .vc_element-icon {
+  background-position: 0 -288px;
+}
+#nucleus_image_box .vc_element-icon,
+.wpb_nucleus_image_box .vc_element-icon {
+  background-position: 0 -320px;
+}
+#nucleus_testimonial .vc_element-icon,
+.wpb_nucleus_testimonial .vc_element-icon {
+  background-position: 0 -352px;
+}
+#nucleus_video_popup .vc_element-icon,
+.wpb_nucleus_video_popup .vc_element-icon {
+  background-position: 0 -384px;
+}
+#nucleus_video_popup_tile .vc_element-icon,
+.wpb_nucleus_video_popup_tile .vc_element-icon {
+  background-position: 0 -416px;
+}
+#nucleus_animated_digits .vc_element-icon,
+.wpb_nucleus_animated_digits .vc_element-icon {
+  background-position: 0 -448px;
+}
+#nucleus_team .vc_element-icon,
+.wpb_nucleus_team .vc_element-icon {
+  background-position: 0 -480px;
+}
+#nucleus_pricing .vc_element-icon,
+.wpb_nucleus_pricing .vc_element-icon {
+  background-position: 0 -512px;
+}
+#nucleus_pricing_table .vc_element-icon,
+.wpb_nucleus_pricing_table .vc_element-icon {
+  background-position: 0 -544px;
+}
+#nucleus_download_counter .vc_element-icon,
+.wpb_nucleus_download_counter .vc_element-icon {
+  background-position: 0 -576px;
+}
+#nucleus_countdown .vc_element-icon,
+.wpb_nucleus_countdown .vc_element-icon {
+  background-position: 0 -608px;
+}
+#nucleus_progress_bars .vc_element-icon,
+.wpb_nucleus_progress_bars .vc_element-icon {
+  background-position: 0 -640px;
+}
+#nucleus_gallery .vc_element-icon,
+.wpb_nucleus_gallery .vc_element-icon {
+  background-position: 0 -672px;
+}
+#nucleus_icon_box .vc_element-icon,
+.wpb_nucleus_icon_box .vc_element-icon {
+  background-position: 0 -704px;
+}
+#nucleus_subscribe .vc_element-icon,
+.wpb_nucleus_subscribe .vc_element-icon {
+  background-position: 0 -736px;
+}
+#nucleus_timetable .vc_element-icon,
+.wpb_nucleus_timetable .vc_element-icon {
+  background-position: 0 -768px;
+}
+#nucleus_split_contacts .vc_element-icon,
+.wpb_nucleus_split_contacts .vc_element-icon {
+  background-position: 0 -800px;
+}
+#nucleus_gadgets_slideshow .vc_element-icon,
+.wpb_nucleus_gadgets_slideshow .vc_element-icon {
+  background-position: 0 -832px;
+}
+#nucleus_posts .vc_element-icon,
+.wpb_nucleus_posts .vc_element-icon {
+	background-position: 0 -864px;
+}
+#nucleus_products .vc_element-icon,
+.wpb_nucleus_products .vc_element-icon {
+	background-position: 0 -896px;
+}
+.column-preview {
+	float: none;;
+}
+.column-preview .nucleus-slideshow-preview {
+	overflow: hidden;
+	text-align: center;
+}
+.column-preview .nucleus-slideshow-preview > img,
+.column-preview .nucleus-slideshow-preview ul {
+
+}
+.column-preview .nucleus-slideshow-preview ul {
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.column-preview .nucleus-slideshow-preview ul li {
+	margin: 0 5px 0 0 ;
+	display: inline-block;
+}

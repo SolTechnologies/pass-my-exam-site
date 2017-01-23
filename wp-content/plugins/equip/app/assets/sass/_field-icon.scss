@@ -1,0 +1,78 @@
+//
+// Icon Picker
+// --------------------------------------------------
+
+.fip-grey.icons-selector {
+  font-size: $ip-selector-font-size;
+  .selector {
+    height: $ip-selector-height;
+    width: $ip-selector-width;
+    border: 1px solid $ip-selector-border-color;
+    background-color: #fff;
+    .selected-icon {
+      width: $ip-selector-width - 49;
+      line-height: $ip-selector-height;
+      i { color: $gray-light; }
+    }
+    .selector-button {
+      width: $ip-selector-height - 1;
+      line-height: $ip-selector-height;
+      background-color: $ip-selector-button-bg;
+      border-left: 1px solid $ip-selector-border-color;
+      @include transition(background-color .25s);
+      &:hover {
+        background-color: $ip-selector-button-hover-bg;
+      }
+      i {
+        color: $gray-light;
+        text-shadow: 0 1px 0 #fff;
+      }
+    }
+  }
+  .selector-popup {
+    border: 1px solid $ip-selector-border-color;
+  }
+  .selector-category select,
+  .selector-search input[type=text] {
+      border: $input-border;
+      color: $input-font-color;
+      font-size: $input-font-size;
+      @include box-shadow(none);
+      outline: 0
+  }
+  input {
+    @include placeholder {
+      color: $gray-light;
+      text-transform: none;
+    }
+  }
+  .selector-search i,
+  .fip-icons-container .loading {
+    color: $gray-lighter;
+  }
+  .selector-search i {
+    top: 50%;
+    margin-top: -($ip-selector-font-size / 2);
+  }
+  .fip-icons-container {
+    background-color: #fff;
+    border: 1px solid $ip-selector-border-color;
+  }
+  .fip-box {
+    border: 1px solid $ip-selector-border-color;
+    @include transition(background-color .25s);
+    &:hover {
+      background-color: $ip-selector-button-bg;
+    }
+  }
+  .selector-footer,
+  .selector-footer i { color: $gray-lighter; }
+  .selector-arrows i:hover { color: darken($gray-lighter, 4%); }
+  span.current-icon,
+  span.current-icon:hover {
+    color: #fff;
+    background-color: $brand-primary;
+    border: 1px solid $brand-primary;
+  }
+  .icons-picker-error i:before { color: $gray-light; }
+}

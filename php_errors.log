@@ -1,0 +1,32 @@
+[22-Jan-2017 02:10:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'yourtheme_woocommerce_image_dimensions' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 300
+[22-Jan-2017 02:10:08 UTC] PHP Stack trace:
+[22-Jan-2017 02:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[22-Jan-2017 02:10:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[22-Jan-2017 02:10:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[22-Jan-2017 02:10:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[22-Jan-2017 02:10:08 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[22-Jan-2017 02:10:08 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:449
+[22-Jan-2017 02:10:08 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[22-Jan-2017 02:10:08 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[22-Jan-2017 02:10:08 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[22-Jan-2017 02:10:08 UTC] PHP  10. check_theme_switched() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[22-Jan-2017 02:10:08 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/theme.php:2739
+[22-Jan-2017 02:10:08 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[22-Jan-2017 02:10:08 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[22-Jan-2017 02:10:08 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[22-Jan-2017 02:25:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'yourtheme_woocommerce_image_dimensions' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 300
+[22-Jan-2017 02:25:12 UTC] PHP Stack trace:
+[22-Jan-2017 02:25:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[22-Jan-2017 02:25:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[22-Jan-2017 02:25:12 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[22-Jan-2017 02:25:12 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[22-Jan-2017 02:25:12 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[22-Jan-2017 02:25:12 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:449
+[22-Jan-2017 02:25:12 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[22-Jan-2017 02:25:12 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[22-Jan-2017 02:25:12 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[22-Jan-2017 02:25:12 UTC] PHP  10. check_theme_switched() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[22-Jan-2017 02:25:12 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/theme.php:2739
+[22-Jan-2017 02:25:12 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[22-Jan-2017 02:25:12 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[22-Jan-2017 02:25:12 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
